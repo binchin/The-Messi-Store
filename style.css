@@ -4,8 +4,10 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
+
+/* NAVBAR  */
 header {
-  border-bottom: 1px solid rgb(189, 189, 189);
+  border-bottom: 1px solid rgb(226, 226, 226);
 }
 nav {
   display: flex;
@@ -19,6 +21,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  cursor: pointer;
 }
 .hamburger span {
   width: 22px;
@@ -28,6 +31,7 @@ span {
 }
 .logo img {
   width: 55px;
+  cursor: pointer;
 }
 .end {
   display: flex;
@@ -38,4 +42,13 @@ span {
 .search img,
 .cart img {
   width: 25px;
+  cursor: pointer;
+}
+/* HERO SECTION  */
+.hero {
+  display: flex;
+  min-height: 85vh;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(194, 190, 191);
 }
