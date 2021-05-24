@@ -8,6 +8,7 @@
 /* NAVBAR  */
 header {
   border-bottom: 1px solid rgb(226, 226, 226);
+  background-color: #ffffff;
 }
 nav {
   display: flex;
@@ -51,4 +52,67 @@ span {
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: rgb(194, 190, 191);
+}
+/* JACKETS SECTION  */
+.jackets {
+  display: flex;
+  justify-content: space-between;
+  min-height: 70vh;
+  flex-wrap: wrap;
+  width: 95%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.zip-jackets {
+  background: linear-gradient(rgba(42, 42, 42, 0.7), rgba(47, 47, 47, 0.8)),
+    url(/images/messi_jacket.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 620px;
+  transition: 0.5s ease;
+}
+.zip-jackets:hover {
+  cursor: pointer;
+}
+.graphic-tees {
+  background: url(/images/white\ messi.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 620px;
+}
+.graphic-tees:hover {
+  cursor: pointer;
+}
+.zip-details {
+  display: flex;
+  min-height: 70vh;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 1.5rem;
+}
+.tees {
+  display: flex;
+  min-height: 70vh;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-left: 1.5rem;
+}
+.blue-line {
+  width: 40px;
+  border-bottom: 5px solid rgb(0, 132, 255);
+}
+.zip-details h2,
+.graphic-tees h2 {
+  padding-bottom: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.zip-details h5,
+.graphic-tees h5 {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+  color: white;
+  font-weight: normal;
+  font-size: 1rem;
 }
